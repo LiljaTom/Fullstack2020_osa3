@@ -13,7 +13,7 @@ morgan.token('req-body', function(req, res){
 })
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :req-body'))
 
-const url = `mongodb+srv://fullstack:${password}@cluster0-ggqhb.mongodb.net/phonebook-app?retryWrites=true&w=majority`
+//const url = `mongodb+srv://fullstack:${password}@cluster0-ggqhb.mongodb.net/phonebook-app?retryWrites=true&w=majority`
 
 
 let persons = [

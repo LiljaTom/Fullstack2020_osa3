@@ -1,3 +1,3 @@
 # Linkki herokuun
 
-https://intense-forest-53575.herokuapp.com/api/persons
+https://floating-depths-78002.herokuapp.com/
