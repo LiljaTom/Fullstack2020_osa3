@@ -17,6 +17,7 @@ const personSchema = new mongoose.Schema({
     number: String
 })
 
+
 const Person = mongoose.model('Person', personSchema)
 
 if (process.argv.length === 3) {
